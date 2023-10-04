@@ -2,8 +2,11 @@
 A simple neovim plugin for executing commands in running docker containers and redirecting their ouptut into a buffer.
 
 ## Installation
-```
+```lua
+-- packer
 use {'zotlann/docker-nvim', requires = 'nvim-telescope/telescope.nvim'}
+-- lazy
+{'zotlann/docker-nvim', dependencies = 'nvim-telescope/telescope.nvim' }
 ```
 
 ## Example configuration
